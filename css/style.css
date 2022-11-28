@@ -5,7 +5,7 @@
     }
     
 .container{
-    width: 65vw;
+    width: 100%;
 }
 main{
     margin-left:5px;
@@ -14,7 +14,8 @@ main{
 header {
     height: 10vh;
     background-color: rgb(88, 143, 215);
-    background-image:url(/img/pattern.png);
+    background-image:url(../img/pattern.png);
+    background-repeat: repeat;
     position:relative;
     margin-bottom: 15px;
 }
@@ -46,8 +47,8 @@ time, figcaption{
 }
 
 .list{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .table{
@@ -57,7 +58,7 @@ time, figcaption{
 
 thead{
     background-color: rgb(88, 143, 215);
-    font: size 15px;px;
+    font: size 15px;
     text-align: left;
     color:white;
 }
@@ -72,4 +73,19 @@ thead{
 
 .others{
     margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h5{
+    color:grey;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.other, .other-1{
+    width:200px;
+}
+
+.other-img{
+    width:100%;
 }
