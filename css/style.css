@@ -70,19 +70,28 @@ thead{
 }
 
 .colorow{
-    background-color:rgb(162, 202, 255); ;
+    background-color:rgb(162, 202, 255);
 }
-/* others */
+/* other content */
+
+h5{
+    color:grey;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
 .others{
     margin-top: 30px;
     margin-bottom: 30px;
     position:relative;
 }
 
-h5{
-    color:grey;
-    margin-bottom: 15px;
-    font-size: 15px;
+.other, .other-1{
+    width:200px;
+}
+
+.other-img{
+    width:100%;
 }
 
 .other-text{
@@ -94,13 +103,6 @@ h5{
     color:white;
 }
 
-.other, .other-1{
-    width:200px;
-}
-
-.other-img{
-    width:100%;
-}
 .other-text1{
     position: absolute;
     top:180px;
