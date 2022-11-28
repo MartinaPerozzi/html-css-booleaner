@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;                   
+    box-sizing: border-box;
+    }
+    
+.container{
+    width: 100vw;
+}
+header {
+    height: 10vh;
+    background-color: rgb(88, 143, 215);
+    background-image: url(/img/pattern.png);
+    position:relative;
+    margin-bottom: 15px;
+}
+
+.logo {
+    width:150px;
+    position: absolute;
+    bottom:10px;
+    left:5px;
+}
+
+h1{
+    font-size:30px;
+}
+
