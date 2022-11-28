@@ -5,7 +5,10 @@
     }
     
 .container{
-    width: 60vw;
+    width: 65vw;
+}
+main{
+    margin-left:5px;
 }
 
 header {
@@ -27,6 +30,13 @@ h1{
     font-size:30px;
 }
 
+.info{
+    color:grey;
+}
+#author{
+    color: rgb(77, 153, 251);
+}
+
 time, figcaption{
     font-size:12px;
 }
@@ -40,7 +50,10 @@ time, figcaption{
     margin-bottom: 20px;
 }
 
-
+.table{
+    margin-bottom: 30px;
+    border-width: 0px;
+}
 
 thead{
     background-color: rgb(88, 143, 215);
@@ -55,4 +68,8 @@ thead{
 
 .colorow{
     background-color:rgb(162, 202, 255); ;
+}
+
+.others{
+    margin-top: 30px;
 }
