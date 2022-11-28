@@ -25,4 +25,10 @@ header {
 h1{
     font-size:30px;
 }
+time, figcaption{
+    font-size:12px;
+}
+.images{
+    margin-top:10px;
+}
 
