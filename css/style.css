@@ -7,12 +7,9 @@
 .container{
     width: 100%;
 }
-main{
-    margin-left:5px;
-}
 
 header {
-    height: 10vh;
+    height: 9vh;
     background-color: rgb(88, 143, 215);
     background-image:url(../img/pattern.png);
     background-repeat: repeat;
@@ -24,10 +21,14 @@ header {
 .logo {
     width:150px;
     position: absolute;
-    bottom:10px;
+    bottom:5px;
     left:5px;
 }
 
+main{
+    margin-left:5px;
+}
+/* headline */
 h1{
     font-size:30px;
 }
@@ -42,23 +43,23 @@ h1{
 time, figcaption{
     font-size:12px;
 }
-
+/* images and article*/
 .images, .article {
     margin-top:10px;
 }
-
+/* list */
 .list{
     margin-top: 30px;
     margin-bottom: 30px;
 }
-
+/* table */
 .table{
     margin-bottom: 30px;
     border-width: 0px;
 }
 
 thead{
-    background-color: rgb(88, 143, 215);
+    background-color: rgb(114 160 244);
     font: size 15px;
     text-align: left;
     color:white;
@@ -71,7 +72,7 @@ thead{
 .colorow{
     background-color:rgb(162, 202, 255); ;
 }
-
+/* others */
 .others{
     margin-top: 30px;
     margin-bottom: 30px;
